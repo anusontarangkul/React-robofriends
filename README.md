@@ -1,71 +1,67 @@
-# Getting Started with Create React App
+# RoboFriends
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is an app that searches robots from the robohash API and combines the contact information with the JSONPlaceholder.
 
-In the project directory, you can run:
+<img src="./readme-images/screenshot.png" width="400">
 
-### `yarn start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Highlights](#highlights)
+- [Credits](#credits)
+- [License](#license)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Deployment
 
-### `yarn test`
+[Deployment](https://robofriends-david.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app is deployed using Netlify and by using continous integration from GitHub.
 
-### `yarn build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can search for robofriends in the search bar. The app will automatically render any matches with the values that you entered in.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Languages
 
-### `yarn eject`
+- HTML
+- CSS
+- JavaScript
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Libraries & Frameworks
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React (JavaScript)
+- Tachyons (CSS)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### APIs
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Robohash](https://robohash.org/)
+- [JsonPlaceholder](https://jsonplaceholder.typicode.com/)
 
-## Learn More
+## Highlights
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./readme-images/ComponentDidMount.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The lifecycle methold of componentDidMount() is used to make a fetch call to the JSON Placeholder.
 
-### Code Splitting
+<img src="./readme-images/onSearchChange.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Used hooks to update the state for what is being searched.
 
-### Analyzing the Bundle Size
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+David Anusontarangkul
 
-### Making a Progressive Web App
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/anusontarangkul/)
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/anusontarangkul)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This app was apart of the "Complete Web Developer in 2021: Zero to Mastery" by Andrea Neagoie.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# robofriends
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

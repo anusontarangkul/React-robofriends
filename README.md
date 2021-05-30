@@ -51,7 +51,7 @@ The lifecycle methold of componentDidMount() is used to make a fetch call to the
 
 <img src="./readme-images/onSearchChange.png">
 
-Used hooks to update the state for what is being searched.
+Dynamically update what is being searched as the user types the values in.
 
 ## Credits
 
